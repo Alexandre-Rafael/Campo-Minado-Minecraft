@@ -14,7 +14,9 @@ def main():
             game = Game(size, prob)
             game.run()
         elif choice == "Créditos":
-            easygui.msgbox("Alexandre Rafael Rodrigues de Oliveira - Matrícula 7019", title="Créditos")
+            easygui.msgbox("Alexandre Rafael Rodrigues de Oliveira - Matrícula 7019, Hércules Oliveira - 7622, Lucas Souza e Silva - 7561", title="Créditos")
+
+
         else:
             break
 
