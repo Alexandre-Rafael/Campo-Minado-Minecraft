@@ -6,6 +6,7 @@ from board import Board
 from difficulty import choose_difficulty
 from menu import show_menu
 
+#escolhas do menu principal
 def main():
     while True:
         choice = show_menu()
@@ -17,6 +18,9 @@ def main():
             easygui.msgbox("Alexandre Rafael Rodrigues de Oliveira - Matrícula 7019, Hércules de Oliveira - 7622, Lucas Souza e Silva - 7561", title="Créditos")
         else:
             break
+
+
+#verifica se este script está sendo executado diretamente e não importado como um módulo
 
 if __name__ == "__main__":
     main()
